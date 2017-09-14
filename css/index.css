@@ -1,0 +1,55 @@
+.banner{
+	width: 100%;
+	height: 568px;
+	position: relative;
+}
+.banner-img{
+	height: 568px;
+}
+.banner-img img{
+	display: block;
+	height: 568px;
+	width: auto;
+	margin-left: -260px;	
+	position: absolute;
+}
+.banner-btn{
+	position: absolute;
+	bottom: 20px;
+	z-index: 5;
+	width: 100px;
+	height: 20px;
+	margin-left:-50px;
+	left: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.banner-btn li{
+	height: 12px;
+	width: 12px;
+	background: #666;
+	border-radius: 50%;
+	border: #666 2px solid;
+	outline: none;
+}
+ .banner-btn .in{
+ 	border-radius: 50%;
+	height: 12px;
+	width: 12px;
+	border-color:#009B72;
+	background: #FFFFFF;
+}
+/*主页主体链接*/
+.main-link{
+	margin-top: 5px;
+	display: flex;
+	justify-content: space-around;
+}
+.main-link a img{
+	display: block;
+	width: 418px;
+	height: 208px;
+}
+
+
